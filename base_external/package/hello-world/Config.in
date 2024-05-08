@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_HELLO_WORLD
+	bool "Example package"
+	help
+	  Example package
