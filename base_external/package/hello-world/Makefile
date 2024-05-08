@@ -13,7 +13,7 @@ EXTRA_CFLAGS += $(DEBFLAGS)
 
 ifneq ($(KERNELRELEASE),)
 # call from kernel build system
-obj-m	:= 
+obj-m	:= kernel_module_example.o
 else
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
